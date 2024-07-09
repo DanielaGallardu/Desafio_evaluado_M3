@@ -36,60 +36,60 @@ body, .container {
   margin-left: 20px;
 }
 
-.container-subcontainer {
+.container__subcontainer {
   justify-content: flex-start;
 }
 
-.container-subcontainer__img {
+.container__subcontainer--img {
   width: 603px;
   height: 314px;
   object-fit: cover;
   border-radius: 20px;
 }
 
-.card-content__date {
+.card__content--date {
   font-size: 18px;
   font-weight: 400;
   line-height: 27px;
   text-align: left;
 }
-.card-content__title {
+.card__content--title {
   font-size: 24px;
   font-weight: 700;
   line-height: 36px;
   text-align: left;
 }
-.card-footer{
+.card__footer{
   display: flex;
   align-items: center;
   padding-top: 30px;
 }
 
-.card-footer__img {
+.card__footer--img {
   max-width: 35px; 
   margin-right: 0.5rem;
   border-radius: 50%;
 }
-.card-footer__title{
+.card__footer--title{
   font-weight: 400;
 }
-.container-subcontainer2 {
+.container__subcontainer2 {
   display: flex;
   flex-direction: column;
   padding-left: 30px;
   
 }
-.nov-items {
+.novItems {
   padding-bottom: 32px;
 }
 
-.nov-items__img,
-.nov-items__cont {
+.novItems__img,
+.novItems__cont {
   display: inline-block;
   vertical-align: top;
 }
 
-.nov-items__img__cardImg {
+.novItems__img--cardImg {
   width: 145px;
   height: 110px;
   object-fit: cover;
@@ -97,36 +97,36 @@ body, .container {
   margin-left: 20px;
   margin-right: 20px;
 }
-.items__cont__date {
+.items__cont--date {
   font-size: 16px;
   font-weight: 400;
 }
-.nov-items__cont__title{   
+.items__cont--title{   
   font-size: 20px;
   font-weight: 700;
 }
-.items__cont__cardImgFooter {
+.items__cont--cardImgFooter {
   width: 25px;
   border-radius: 50%;
   float: left;
   margin-right: 0.5rem;
   margin-top: 12px;
 }
-.items__cont__cardTitleFooter{
+.items__cont--cardTitleFooter{
   font-weight: 400;
   padding-top: 14px;
 }
 
-.pop-items {
+.popItems {
   padding-bottom: 25px;
 }
 
-.pop-items__img
-.pop-items__cont {
+.popItems__img
+.popItems__cont {
   vertical-align: top;
 }
 
-.pop-items__img__cardImg {
+.popItems__img--cardImg {
   width: 298px;
   height: 200px;
   object-fit: cover;
@@ -134,7 +134,7 @@ body, .container {
   margin-top: 20px
 }
 
-.container-subcontainer__popularColumn {
+.container__subcontainer--popularColumn {
   display: inline-block; 
   padding-right: 25px;
 }
