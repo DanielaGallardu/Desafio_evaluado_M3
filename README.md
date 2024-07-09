@@ -53,3 +53,8 @@ Se han aplicado los siguientes colores en el proyecto:
 - Verde: `#67C770`
 - Morado: `#563D7C`
 
+## Instrucciones de Despliegue
+
+1. **Clonar el repositorio**:
+   ```bash
+   git clone https://github.com/DanielaGallardu/Desafio_evaluado_M3
